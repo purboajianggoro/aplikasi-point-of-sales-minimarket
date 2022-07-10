@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    width: 800px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.box {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.kiri {
+    flex-grow: 1;
+}
+
+.tengah {
+    flex-grow: 4;
+}
+
+.kanan {
+    flex-grow: 1;
+}
